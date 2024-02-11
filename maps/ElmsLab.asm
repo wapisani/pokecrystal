@@ -399,7 +399,7 @@ ElmScript_NoRoomForEverstone:
 ElmGiveMasterBallScript:
 	writetext ElmGiveMasterBallText1
 	promptbutton
-	verbosegiveitem MASTER_BALL
+	verbosegiveitem MASTER_BALL, 99
 	iffalse .notdone
 	setevent EVENT_GOT_MASTER_BALL_FROM_ELM
 	writetext ElmGiveMasterBallText2
@@ -499,9 +499,9 @@ AideScript_GiveYouBalls:
 	opentext
 	writetext AideText_GiveYouBalls
 	promptbutton
-	getitemname STRING_BUFFER_4, POKE_BALL
+	getitemname STRING_BUFFER_4, MASTER_BALL
 	scall AideScript_ReceiveTheBalls
-	giveitem POKE_BALL, 5
+	giveitem MASTER_BALL, 99
 	writetext AideText_ExplainBalls
 	promptbutton
 	itemnotify
