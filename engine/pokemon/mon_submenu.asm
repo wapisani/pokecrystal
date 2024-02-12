@@ -458,7 +458,7 @@ CanUseFly:
 
 Can_Use_Sweet_Scent:
 ; Step 1: Location check
-	farcall CanEncounterWildMonInThisTile
+	farcall CanEncounterWildMon
 	ret nc
 	farcall GetMapEncounterRate
 	ld a, b
