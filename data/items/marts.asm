@@ -49,9 +49,9 @@ MartCherrygroveDex:
 	db 5 ; # items
 	db POKE_BALL
 	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
-	db AWAKENING
+	db FULL_HEAL
+	db RARE_CANDY
+	db MASTER_BALL
 	db -1 ; end
 
 MartViolet:
@@ -78,7 +78,7 @@ MartAzalea:
 	db REPEL
 	db ANTIDOTE
 	db PARLYZ_HEAL
-	db FLOWER_MAIL
+	db RARE_CANDY
 	db -1 ; end
 
 MartCianwood:
@@ -175,7 +175,7 @@ MartOlivine:
 	db AWAKENING
 	db ICE_HEAL
 	db SUPER_REPEL
-	db SURF_MAIL
+	db RARE_CANDY
 	db -1 ; end
 
 MartEcruteak:
@@ -187,8 +187,8 @@ MartEcruteak:
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db BURN_HEAL
-	db ICE_HEAL
+	db RARE_CANDY
+	db FULL_HEAL
 	db REVIVE
 	db -1 ; end
 
@@ -210,7 +210,7 @@ MartMahogany2:
 	db PARLYZ_HEAL
 	db SUPER_REPEL
 	db REVIVE
-	db FLOWER_MAIL
+	db RARE_CANDY
 	db -1 ; end
 
 MartBlackthorn:
