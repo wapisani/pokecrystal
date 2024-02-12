@@ -29,6 +29,7 @@ MrPokemonsHouseMrPokemonEventScript:
 	promptbutton
 	waitsfx
 	giveitem MYSTERY_EGG
+        giveitem EXP_SHARE
 	writetext MrPokemonsHouse_GotEggText
 	playsound SFX_KEY_ITEM
 	waitsfx
@@ -69,7 +70,7 @@ MrPokemonsHouse_MrPokemonScript:
 	writetext MrPokemonText_GimmeTheScale
 	yesorno
 	iffalse .refused
-	verbosegiveitem EXP_SHARE
+	verbosegiveitem MASTER_BALL, 20
 	iffalse .full
 	takeitem RED_SCALE
 	sjump .AlwaysNewDiscoveries
@@ -338,7 +339,7 @@ MrPokemonText_GimmeTheScale:
 	line "care to trade it?"
 
 	para "I can offer this"
-	line "EXP.SHARE I got"
+	line "masterball I got"
 	cont "from PROF.OAK."
 	done
 
