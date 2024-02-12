@@ -347,7 +347,7 @@ JohtoGrassWildMons:
 	db 13, PIDGEY
 	db 10, CATERPIE
 	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, SCYTHER
 	; day
 	db 12, NIDORAN_F
 	db 12, NIDORAN_M
@@ -355,7 +355,7 @@ JohtoGrassWildMons:
 	db 13, PIDGEY
 	db 10, CATERPIE
 	db 10, WEEDLE
-	db 10, WEEDLE
+	db 10, SCYTHER
 	; nite
 	db 12, PSYDUCK
 	db 13, HOOTHOOT
@@ -363,7 +363,7 @@ JohtoGrassWildMons:
 	db 15, HOOTHOOT
 	db 10, VENONAT
 	db 12, VENONAT
-	db 12, VENONAT
+	db 12, SCYTHER
 	end_grass_wildmons
 
 	def_grass_wildmons RUINS_OF_ALPH_OUTSIDE
@@ -1182,26 +1182,26 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
+	db 2, LARVITAR
+	db 2, LARVITAR
 	db 4, GEODUDE
 	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; day
 	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
+	db 2, LARVITAR
+	db 2, LARVITAR
 	db 4, GEODUDE
-	db 2, ZUBAT
+	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	; nite
 	db 3, GEODUDE
-	db 2, ZUBAT
-	db 2, GEODUDE
+	db 2, LARVITAR
+	db 2, LARVITAR
 	db 4, GEODUDE
-	db 2, ZUBAT
+	db 2, TEDDIURSA
 	db 4, ZUBAT
 	db 4, DUNSPARCE
 	end_grass_wildmons
@@ -1434,26 +1434,26 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 4, LEDYBA
-	db 4, PIDGEY
+	db 4, MAREEP
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
-	db 5, PIDGEY
+	db 5, MAREEP
 	db 6, PIDGEY
 	db 6, PIDGEY
 	; day
 	db 4, PIDGEY
-	db 4, PIDGEY
+	db 4, MAREEP
 	db 5, BELLSPROUT
 	db 5, GROWLITHE
-	db 5, PIDGEY
+	db 5, MAREEP
 	db 6, PIDGEY
 	db 6, PIDGEY
 	; nite
 	db 4, SPINARAK
 	db 4, HOOTHOOT
 	db 5, BELLSPROUT
-	db 5, HOOTHOOT
-	db 5, HOOTHOOT
+	db 5, HOUNDOUR
+	db 5, HOUNDOUR
 	db 5, GASTLY
 	db 5, GASTLY
 	end_grass_wildmons
@@ -1662,22 +1662,22 @@ JohtoGrassWildMons:
 	db 3, GEODUDE
 	db 3, RATTATA
 	db 2, PHANPY
-	db 2, RATTATA
+	db 2, PHANPY
 	db 2, RATTATA
 	; day
 	db 2, GEODUDE
 	db 2, SPEAROW
 	db 3, GEODUDE
-	db 3, RATTATA
-	db 2, RATTATA
+	db 3, PHANPY
+	db 2, PHANPY
 	db 2, RATTATA
 	db 2, RATTATA
 	; nite
 	db 2, GEODUDE
 	db 2, RATTATA
 	db 3, GEODUDE
-	db 3, RATTATA
-	db 2, RATTATA
+	db 3, PHANPY
+	db 2, PHANPY
 	db 2, RATTATA
 	db 2, RATTATA
 	end_grass_wildmons

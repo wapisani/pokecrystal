@@ -99,12 +99,12 @@ TreeMonSet_Lake:
 	db  5, EXEGGCUTE,  10
 	db -1
 ; rare
-	db 50, HOOTHOOT,   10
+	db 50, NOCTOWL,   20
 	db 15, PINECO,     10
 	db 15, PINECO,     10
 	db 10, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
-	db  5, EXEGGCUTE,  10
+	db  5, SCIZOR,  20
+	db  5, SCIZOR,  20
 	db -1
 
 TreeMonSet_Forest:
